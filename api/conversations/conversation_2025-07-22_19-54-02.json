@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "What was my last question?"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but I cannot recall your previous question as each conversation starts fresh, and I do not have access to the context of previous interactions. My memory resets with each new query. If you'd like to ask a question or discuss something, please go ahead and I'll be happy to help you."
+  }
+]

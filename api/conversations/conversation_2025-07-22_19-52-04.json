@@ -1,0 +1,39 @@
+[
+  {
+    "role": "user",
+    "content": "Who is prime minister of india"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for the current Prime Minister of India.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_014TKrnSSYc8YFat3xgEnQku",
+        "input": {
+          "query": "Current Prime Minister of India 2024"
+        },
+        "name": "search_web",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_014TKrnSSYc8YFat3xgEnQku",
+        "content": [
+          "type='text' text='{\\n  \"searchParameters\": {\\n    \"q\": \"Current Prime Minister of India 2024\",\\n    \"type\": \"search\",\\n    \"num\": 2,\\n    \"engine\": \"google\"\\n  },\\n  \"organic\": [\\n    {\\n      \"title\": \"Know the PM | Prime Minister of India\",\\n      \"link\": \"https://www.pmindia.gov.in/en/pms-profile/\",\\n      \"snippet\": \"Shri Narendra Modi was sworn-in as India\\'s Prime Minister for the third time on 9th June 2024, following another decisive victory in the 2024 Parliamentary ...\",\\n      \"position\": 1\\n    },\\n    {\\n      \"title\": \"Narendra Modi - Wikipedia\",\\n      \"link\": \"https://en.wikipedia.org/wiki/Narendra_Modi\",\\n      \"snippet\": \"Narendra Damodardas Modi (born 17 September 1950) is an Indian politician who has served as the prime minister of India since 2014. Modi was the chief minister ...\",\\n      \"sitelinks\": [\\n        {\\n          \"title\": \"Public image of Narendra...\",\\n          \"link\": \"https://en.wikipedia.org/wiki/Public_image_of_Narendra_Modi\"\\n        },\\n        {\\n          \"title\": \"Foreign policy of the Narendra...\",\\n          \"link\": \"https://en.wikipedia.org/wiki/Foreign_policy_of_the_Narendra_Modi_government\"\\n        },\\n        {\\n          \"title\": \"Jashodaben Modi\",\\n          \"link\": \"https://en.wikipedia.org/wiki/Jashodaben_Modi\"\\n        }\\n      ],\\n      \"position\": 2\\n    }\\n  ],\\n  \"relatedSearches\": [\\n    {\\n      \"query\": \"who is the 16 prime minister of india?\"\\n    },\\n    {\\n      \"query\": \"president of india\"\\n    },\\n    {\\n      \"query\": \"prime minister of india full name\"\\n    },\\n    {\\n      \"query\": \"15th prime minister of india\"\\n    },\\n    {\\n      \"query\": \"who is the first prime minister of india\"\\n    },\\n    {\\n      \"query\": \"prime minister of india list from 1947 to 2020\"\\n    },\\n    {\\n      \"query\": \"list of prime minister of india pdf\"\\n    },\\n    {\\n      \"query\": \"prime minister of india list with photo\"\\n    }\\n  ],\\n  \"credits\": 1\\n}' annotations=None meta=None"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the search results, Narendra Modi is the current Prime Minister of India. He was recently sworn in for his third term on 9th June 2024, following a decisive victory in the 2024 Parliamentary elections. Modi has been serving as the Prime Minister of India since 2014, leading the Bharatiya Janata Party (BJP). He was previously the Chief Minister of Gujarat before becoming the Prime Minister of India."
+  }
+]

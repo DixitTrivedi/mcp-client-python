@@ -1,0 +1,24 @@
+[
+  {
+    "role": "user",
+    "content": "How do I connect langchain and chromadb"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search the Langchain documentation to find the details about connecting Langchain and ChromaDB.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01JqPkWyDQi4SWKXcEe6dXEv",
+        "input": {
+          "query": "ChromaDB vector store integration",
+          "library": "langchain"
+        },
+        "name": "get_docs",
+        "type": "tool_use"
+      }
+    ]
+  }
+]

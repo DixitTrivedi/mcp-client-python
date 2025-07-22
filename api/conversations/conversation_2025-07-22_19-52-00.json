@@ -1,0 +1,23 @@
+[
+  {
+    "role": "user",
+    "content": "Who is prime minister of india"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for the current Prime Minister of India.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_014TKrnSSYc8YFat3xgEnQku",
+        "input": {
+          "query": "Current Prime Minister of India 2024"
+        },
+        "name": "search_web",
+        "type": "tool_use"
+      }
+    ]
+  }
+]
